@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_sumeer_crimereporter_domain_Crime" items="${crimes}" z="BKsRSyOE73zcLtbz8cMIeR6Mo38=">
+        <table:table data="${crimes}" id="l_com_sumeer_crimereporter_domain_Crime" path="/crimes" z="6YB84nZKWnAfl+Xb1yMkV+dNobU=">
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_crimeType" property="crimeType" z="XeworPJm2SqHoDpPP94ForBNdoA="/>
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_location" property="location" z="kmcZg5S4qCrjFGcH+7OhVUGlCu8="/>
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_idUser" property="idUser" z="EMwYyKJy8DTN4HOK9L7MEEjho9E="/>
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_crimeDescription" property="crimeDescription" z="9XXFuLMxBxk6LxfqbFwkRdVGn8s="/>
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_longitude" property="longitude" z="q2je2879xzjFqdhMz+APRItLYbg="/>
+            <table:column id="c_com_sumeer_crimereporter_domain_Crime_latitude" property="latitude" z="lAP8uSs5q2kH0uGoR/pyz2zaTWM="/>
+        </table:table>
+    </page:list>
+</div>

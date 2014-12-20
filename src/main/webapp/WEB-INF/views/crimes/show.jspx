@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_sumeer_crimereporter_domain_Crime" object="${crime}" path="/crimes" z="xs6P2a/BeW9Ye4H9I3jv6YQ/S9M=">
+        <field:display field="crimeType" id="s_com_sumeer_crimereporter_domain_Crime_crimeType" object="${crime}" z="7fZr4cBv11AertH7OXAs7af7S3s="/>
+        <field:display field="location" id="s_com_sumeer_crimereporter_domain_Crime_location" object="${crime}" z="GmDHaeMZrzUpilyIt1OAUMXVaAU="/>
+        <field:display field="idUser" id="s_com_sumeer_crimereporter_domain_Crime_idUser" object="${crime}" z="ZXMCguaT4L2vsmrnsIOuU4bV3SU="/>
+        <field:display field="crimeDescription" id="s_com_sumeer_crimereporter_domain_Crime_crimeDescription" object="${crime}" z="5TKv32dt28CK9WK9NyCz1vEK6SY="/>
+        <field:display field="longitude" id="s_com_sumeer_crimereporter_domain_Crime_longitude" object="${crime}" z="/rnszcOi+r4piiEUMl8DPc1PgY8="/>
+        <field:display field="latitude" id="s_com_sumeer_crimereporter_domain_Crime_latitude" object="${crime}" z="mrStIctXX7mWwJLEOKMdd0zhxd8="/>
+    </page:show>
+</div>

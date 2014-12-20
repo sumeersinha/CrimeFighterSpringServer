@@ -1,0 +1,22 @@
+<aspectj>
+<aspects>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_Json"/>
+<aspect name="com.sumeer.crimereporter.web.LoginController_Roo_Controller"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_Json"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_JavaBean"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_Configurable"/>
+<aspect name="com.sumeer.crimereporter.web.CrimeController_Roo_Controller_Json"/>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_ToString"/>
+<aspect name="com.sumeer.crimereporter.web.LoginController_Roo_Controller_Json"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_Jpa_Entity"/>
+<aspect name="com.sumeer.crimereporter.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_JavaBean"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_ToString"/>
+<aspect name="com.sumeer.crimereporter.domain.Login_Roo_Configurable"/>
+<aspect name="com.sumeer.crimereporter.web.CrimeController_Roo_Controller"/>
+<aspect name="com.sumeer.crimereporter.domain.Crime_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+

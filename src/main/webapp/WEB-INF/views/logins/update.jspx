@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_sumeer_crimereporter_domain_Login" modelAttribute="login" path="/logins" versionField="Version" z="JikiIkID1uO4th90KnoEM2mpnjQ=">
+        <field:input field="userName" id="c_com_sumeer_crimereporter_domain_Login_userName" z="B5+v0nF/EKikZnZvddyEJI8qrJ0="/>
+        <field:input field="userFBID" id="c_com_sumeer_crimereporter_domain_Login_userFBID" z="vo35SEoNM1b3bUmbIpsp23gBPx0="/>
+    </form:update>
+</div>

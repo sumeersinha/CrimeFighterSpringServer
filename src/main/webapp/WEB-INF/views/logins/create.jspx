@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_sumeer_crimereporter_domain_Login" modelAttribute="login" path="/logins" render="${empty dependencies}" z="SQb92oYEAcZDyNA0j9LtuaTjvpM=">
+        <field:input field="userName" id="c_com_sumeer_crimereporter_domain_Login_userName" z="B5+v0nF/EKikZnZvddyEJI8qrJ0="/>
+        <field:input field="userFBID" id="c_com_sumeer_crimereporter_domain_Login_userFBID" z="vo35SEoNM1b3bUmbIpsp23gBPx0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_sumeer_crimereporter_domain_Login" render="${not empty dependencies}" z="qvxpL5S+vw8ZplPip7J/bjO6Hhk="/>
+</div>
